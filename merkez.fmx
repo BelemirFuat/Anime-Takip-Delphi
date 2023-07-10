@@ -1,0 +1,104 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = Bottom
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 93.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Yeni Animeler'
+      object WebBrowser1: TWebBrowser
+        Align = Client
+        Size.Width = 640.000000000000000000
+        Size.Height = 423.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object ComboBox1: TComboBox
+        Align = Top
+        Size.Width = 640.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnChange = ComboBox1Change
+        object ListBoxItem1: TListBoxItem
+          TabOrder = 0
+          Text = 'turkanime.co'
+        end
+        object ListBoxItem2: TListBoxItem
+          TabOrder = 1
+          Text = 'myanimelist.net'
+        end
+        object ListBoxItem3: TListBoxItem
+          TabOrder = 2
+          Text = 'anizm.com'
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 66.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Haberler'
+      object ComboBox2: TComboBox
+        Align = Top
+        Size.Width = 640.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object ListBoxItem4: TListBoxItem
+          TabOrder = 0
+          Text = 'turkanime.co'
+        end
+        object ListBoxItem5: TListBoxItem
+          TabOrder = 1
+          Text = 'myanimelist.net'
+        end
+        object ListBoxItem6: TListBoxItem
+          TabOrder = 2
+          Text = 'anizm.com'
+        end
+      end
+      object WebBrowser2: TWebBrowser
+        Align = Client
+        Size.Width = 640.000000000000000000
+        Size.Height = 423.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 81.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Takip listem'
+    end
+  end
+end
